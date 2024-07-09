@@ -2,12 +2,11 @@ from openai import OpenAI
 import pygame
 import time
 client = OpenAI()
-
   
 def chat_with_ai():
     pygame.mixer.init()
     messages = [
-        {"role": "system", "content": "You are my best firent. Try to chat with me instead of sending me back large blocks of text. Please speak more everyday.Don't reply to too many words at once."}
+        {"role": "system", "content": "You are my best firend. Try to chat with me instead of sending me back large blocks of text. Please speak more everyday.Don't reply to too many words at once."}
     ]
     
     while True:
